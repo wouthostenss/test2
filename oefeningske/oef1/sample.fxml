@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="353.0" prefWidth="489.0">
+         <children>
+            <TextField fx:id="getal1textfield" layoutX="14.0" layoutY="26.0" />
+            <TextField fx:id="getaltextfield" layoutX="14.0" layoutY="64.0" />
+            <Label fx:id="uitkomstlabel" layoutX="14.0" layoutY="102.0" text="uitkomst" />
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>
